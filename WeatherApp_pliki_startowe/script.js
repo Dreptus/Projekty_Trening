@@ -6,7 +6,7 @@ const photo = document.querySelector('.photo');
 const weather = document.querySelector('.weather');
 const temperature = document.querySelector('.temperature');
 const humidity = document.querySelector('.humidity');
-const apiKeySet = prompt('Please enter your personal Api Key from - https://openweathermap.org/');
+const apiKeySet = prompt('Please enter your personal Api Key from - https://openweathermap.org/', '19a44898b09cd172d6dda4f26eb86f59');
 
 const API_LINK = 'https://api.openweathermap.org/data/2.5/weather?q=';
 const API_KEY = `&appid=${apiKeySet}`;
